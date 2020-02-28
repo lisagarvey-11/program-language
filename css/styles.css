@@ -1,14 +1,24 @@
 p {
-  font-style: georgia;
+  font-style: cambria;
   font-size: 18px;
 }
 
 h1 {
   text-align: center;
   font-size: 25px;
-  font-style: georgia;
+  font-style: cambria;
 }
 .radio {
-  font-style: georgia;
+  font-style: cambria;
   font-size: 15px;
+}
+
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
 }
